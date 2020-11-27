@@ -1,5 +1,12 @@
 <?php 
 
+function gymfitness_setup() {
+
+    // Habilitar imagenes destacadas \
+    add_theme_support('post-thumbnails');
+}
+add_action('after_setup_theme', 'gymfitness_setup');
+
 // Menus de navegacion, agrega mas utilizando el arreglo ( array )
 function gynfitness_menus(){
     register_nav_menus(array(

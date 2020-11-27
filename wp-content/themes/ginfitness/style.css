@@ -91,6 +91,8 @@ hr{
     border: 1px solid var(--grisClaro);
 }
 
+
+
 /** Header */ 
 .site-header{
     background-color: var(--grisOscuro);

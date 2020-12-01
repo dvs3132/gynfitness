@@ -5,11 +5,11 @@
   <div class="contenido-principal">
     <?php while( have_posts() ): the_post();?> 
 
-      <h1 class="text-center texto-primario"><?php the_title(); ?></h1>
+    <h1 class="text-center texto-primario"><?php the_title(); ?> </h1>
 
       <?php 
         if(has_post_thumbnail() ):
-          the_post_thumbnail('blog');
+          the_post_thumbnail('blog', array('class' => 'imagen-destacada'));
         else:
           echo "No hay nada que mostrar";
         endif;
@@ -20,9 +20,7 @@
   <?php  endwhile; ?>
   </div>
 
-  <aside class="sidebar">
-    <h1>Aqui sidebar</h1>
-  </aside>
+  <?php get_sidebar(); ?>
 </main>
 
 <?php get_footer(); ?>

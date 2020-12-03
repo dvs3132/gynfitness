@@ -9,6 +9,8 @@
     Text Domain: Gymfitness
 */
 
+if(!defined('ABSPATH')) die(); 
+
 // Registrar Custom Post Type
 function gymfitness_clases_post_type() {
 

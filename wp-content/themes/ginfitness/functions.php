@@ -1,5 +1,8 @@
 <?php 
 
+/** Consultas Reutilizables */
+require get_template_directory() . '/inc/queries.php';
+
 function gymfitness_setup() {
 
     // Habilitar imagenes destacadas \

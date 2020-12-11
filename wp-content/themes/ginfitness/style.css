@@ -306,3 +306,35 @@ hr{
 .no-sidebar .contenido-principal{
     flex: 0 1 800px;
 }
+
+/** Clases */ 
+.lista_clases{
+    margin-top: 4rem;
+}
+
+/** Card */ 
+.card{
+    margin-bottom: 4rem;
+}
+
+.card img{
+    display: block;
+}
+
+.card .contenido{
+    padding: 3rem;
+}
+
+.card .contenido h3{
+    line-height: 1;
+    color: var(--colorPrimario);
+}
+
+.card .contenido p{
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0;
+}
+
+
+

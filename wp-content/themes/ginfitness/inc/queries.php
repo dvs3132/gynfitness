@@ -14,7 +14,7 @@ function gymfitness_lista_clases(){ ?>
                 <?php the_post_thumbnail('mediano'); ?>
                 <div class="contenido">
                     <a href="<?php the_permalink(); ?>">
-                        <h3><?php the_title(); ?>
+                        <h3><?php the_title(); ?></h3>
                     </a>
 
                     <?php 

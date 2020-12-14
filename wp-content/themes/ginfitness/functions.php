@@ -46,3 +46,21 @@ function gynfitness_scripts_styles(){
 }
 
 add_action('wp_enqueue_scripts', 'gynfitness_scripts_styles');
+
+
+/** Definir la Zona de los Widgets */
+
+function gymfitness_widgets(){
+    register_sidebar(array(
+        'name' => 'sidebar1',
+        'id' => 'sidebar_1',
+        'before_widget' => '<div class="widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
+    ));
+}
+add_action('widgets_init', 'gymfitness_widgets');
+
+
+        

@@ -52,20 +52,20 @@ add_action('wp_enqueue_scripts', 'gynfitness_scripts_styles');
 
 function gymfitness_widgets(){
     register_sidebar(array(
-        'name' => 'sidebar1',
+        'name' => 'Sidebar1',
         'id' => 'sidebar_1',
         'before_widget' => '<div class="widget">',
         'after_widget' => '</div>',
-        'before_title' => '<h3>',
+        'before_title' => '<h3 class="text-center texto-primario">',
         'after_title' => '</h3>'
     ));
 
     register_sidebar(array(
-        'name' => 'sidebar2',
+        'name' => 'Sidebar2',
         'id' => 'sidebar_2',
         'before_widget' => '<div class="widget">',
         'after_widget' => '</div>',
-        'before_title' => '<h3>',
+        'before_title' => '<h3 class="text-center texto-primario">',
         'after_title' => '</h3>'
     ));
 }

@@ -6,7 +6,7 @@
 
   </div>
 
-  <?php get_sidebar(); ?>
+  <?php get_sidebar('clases'); ?>
 
 </main>
 

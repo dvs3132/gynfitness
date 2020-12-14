@@ -59,6 +59,15 @@ function gymfitness_widgets(){
         'before_title' => '<h3>',
         'after_title' => '</h3>'
     ));
+
+    register_sidebar(array(
+        'name' => 'sidebar2',
+        'id' => 'sidebar_2',
+        'before_widget' => '<div class="widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
+    ));
 }
 add_action('widgets_init', 'gymfitness_widgets');
 

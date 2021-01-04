@@ -438,3 +438,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     font-size: 1.4rem;
 }
 
+/** Galeria  */
+.galeria-imagenes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /** Este sintaxis lo que no indica es que tomaremos 2 imagenes y las dividiremos por una fraccion, que es lo mismo que decir 50% y 50% y si fuese 4, 1fr seria 25% de cada una de las imagenes*/
+    grid-template-rows: repeat(6, auto);
+    grid-gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .galeria-imagenes{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.galeria-imagenes img{
+    display: block;
+}

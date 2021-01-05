@@ -525,6 +525,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     font-size: 1.4rem;
 }
 
+/** SideBar */
+.widget{
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--grisClaro);
+}
+
+.widget:first-of-type{
+    padding-top: 0;
+}
+
+.widget:last-of-type{
+    border: none;
+}
+
+.widget a {
+    color: var(--negro);
+}
+
+.widget a:hover {
+    color: var(--colorPrimario);
+}
+
 /** Galeria  */
 .galeria-imagenes{
     display: grid;

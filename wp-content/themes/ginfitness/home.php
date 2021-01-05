@@ -4,7 +4,10 @@
         <ul class="listado-blog">
             <?php while(have_posts()): the_post(); ?>
                 <li class="card gradient">
+                    
                     <?php the_post_thumbnail('mediano'); ?>
+                    <?php the_category(); ?>
+                    
                     <div class="contenido">
                         <a href="<?php the_permalink(); ?>">
                             <h3><?php the_title(); ?></h3>

@@ -633,3 +633,8 @@ span.wpcf7-not-valid-tip {
     color: var(--blanco);
     padding-left: 1rem;
 }
+
+/** Mapa */
+#mapa {
+    height: 350px;
+}

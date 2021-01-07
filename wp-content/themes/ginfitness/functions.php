@@ -3,6 +3,9 @@
 /** Consultas Reutilizables */
 require get_template_directory() . '/inc/queries.php';
 
+require get_template_directory() . '/inc/shortcodes.php';
+
+
 function gymfitness_setup() {
 
     // Habilitar imagenes destacadas \

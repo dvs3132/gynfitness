@@ -47,7 +47,7 @@ function gynfitness_scripts_styles(){
 
     if(is_page('contacto')):
         wp_enqueue_style('leaftletCSS', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css', array(), '1.7.1');
-        endif;
+    endif;
 
     // la hoja de estilos principal 
     wp_enqueue_style('style', get_stylesheet_uri(), array('normalize', 'googleFont'), '1.0.0');
@@ -61,7 +61,7 @@ function gynfitness_scripts_styles(){
 
     if(is_page('contacto')):
         wp_enqueue_script('leaftletJS', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.js', array(), '1.7.1', true);
-        endif;
+    endif;
 
     wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0', true); 
 
